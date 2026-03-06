@@ -325,9 +325,18 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 ### Glossary
 
-* **Mainstream OS**: Windows, Linux, Unix, MacOS
-* **Private contact detail**: A contact detail that is not meant to be shared with others
-
+- **Assessment component**: A graded item within a course (e.g., Assignment 1, Midterm, Final) that contributes to the overall grade.
+- **Weightage**: The percentage contribution of an assessment component to the overall grade (e.g., Midterm = 30%).
+- **Course**: A module/class identified by a course code (e.g., CS2103T) that contains students and assessment components.
+- **Course code**: A unique identifier for a course (e.g., CS2103T, CS2040S).
+- **Student ID**: A unique identifier for a student within the institution (format defined by the app).
+- **Roster**: The list of students enrolled in a course.
+- **Grade record**: A student’s stored scores across assessment components for a specific course.
+- **Overall grade**: The computed weighted total for a student in a course based on scores and weightages.
+- **Performance band**: A category/range used to group students by overall grade (e.g., A: ≥85, B: 70–84).
+- **Import**: Loading course/student/grade data from an external file (e.g., CSV) into GradeBookPlus.
+- **Export**: Saving course/student/grade data from GradeBookPlus into an external file (e.g., CSV).
+- **Mainstream OS**: Windows, macOS, Linux.
 --------------------------------------------------------------------------------------------------------------------
 
 ## **Appendix: Instructions for manual testing**
