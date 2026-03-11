@@ -76,15 +76,13 @@ public class Course {
                 && grades.equals(otherCourse.grades);
     }
 
-
     @Override
     public int hashCode() {
         return Objects.hash(courseCode, students, assessments, grades);
     }
 
-
-    /**
-     * Returns a string representation of this course for display.
+    /**
+     * * Returns a string representation of this course for display.
      *
      * @return formatted display string of the course
      */
